@@ -20,6 +20,9 @@ The main Tag template that you will need to use when setting up the JavaScript T
 2. [Snowplow v4](https://tagmanager.google.com/gallery/#/owners/snowplow/templates/snowplow-gtm-tag-template-v4):
   Load, configure, and deploy the Snowplow JavaScript tracker library. It supports the full functionality of the JavaScript SDK.
 
+
+For Ecommerce tracking, the [Snowplow Ecommerce Tag](https://github.com/snowplow/snowplow-gtm-tag-template-ecommerce-v3) is available on GitHub.
+
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
 
