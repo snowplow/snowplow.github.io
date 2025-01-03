@@ -3,7 +3,7 @@ title: Ecommerce Template
 sidebar_position: 600
 ---
 
-This template implements the [Snowplow Ecommerce plugin](/docs/sources/trackers/google-tag-manager/ecommerce-tag-template) for the Snowplow JavaScript tracker and is meant to be used alongside [the main Snowplow tag template](/docs/sources/trackers/google-tag-manager/quick-start/index.md#snowplow-tag-template).
+This template implements the [Snowplow Ecommerce plugin](/docs/sources/trackers/google-tag-manager/ecommerce-tag-template/index.md) for the Snowplow JavaScript tracker and is meant to be used alongside [the main Snowplow tag template](/docs/sources/trackers/google-tag-manager/quick-start/index.md#snowplow-tag-template).
 
 ## Template Installation
 

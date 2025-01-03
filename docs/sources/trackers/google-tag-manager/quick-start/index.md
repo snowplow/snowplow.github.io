@@ -56,7 +56,7 @@ To get started with Snowplow in Google Tag Manager, you will need to add the Sno
 
 :::info
 
-We reccomend [self-hosting](/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/hosting-the-javascript-tracker) the tracker for production environments.
+We reccomend [self-hosting](/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/hosting-the-javascript-tracker/index.md) the tracker for production environments.
 
 :::
 

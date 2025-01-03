@@ -3,11 +3,11 @@ title: Snowplow Template
 sidebar_position: 400
 ---
 
-This template implements the [Snowplow JavaScript tracker](/docs/sources/trackers/javascript-trackers/web-tracker) for Google Tag Manager.
+This template implements the [Snowplow JavaScript tracker](/docs/sources/trackers/javascript-trackers/web-tracker/index.md) for Google Tag Manager.
 
 ## Adding Custom Context Entities
 
-Attaching [custom context entities](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#custom-context) will attach additional data to every Snowplow event fired by the tag.
+Attaching [custom context entities](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#custom-context.md) will attach additional data to every Snowplow event fired by the tag.
 
 To add a custom context entity:
 

@@ -17,13 +17,13 @@ This means that a tracker configuration is applied **only once** to the tracker.
 
 ### Collector Endpoint Hostname
 
-This needs to be set to the hostname/domain (e.g. `sp.domain.com`) on which you’ve configured your [Snowplow Collector](/docs/pipeline/collector/)
+This needs to be set to the hostname/domain (e.g. `sp.domain.com`) on which you’ve configured your [Snowplow Collector](/docs/pipeline/collector/index.md)
 
 ## JavaScript Tracker
 
 ### Snowplow JavaScript Tracker Library
 
-This determines the source of the Snowplow JavaScript tracker library. You can choose to load the tracker from a CDN or host it on your own server. For production usage, we recommend [self-hosting the tracker](/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/hosting-the-javascript-tracker/).
+This determines the source of the Snowplow JavaScript tracker library. You can choose to load the tracker from a CDN or host it on your own server. For production usage, we recommend [self-hosting the tracker](/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/hosting-the-javascript-tracker/index.md).
 
 ### Self-Hosted Library URL
 
