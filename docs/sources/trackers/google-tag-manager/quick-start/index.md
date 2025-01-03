@@ -3,13 +3,6 @@ title: Quick start
 sidebar_position: 100
 ---
 
-```mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<ReleaseBadge/>
-```
-
 This guide will walk you through the initial setup for Snowplow in Google Tag Manager.
 
 ## Adding the Templates
