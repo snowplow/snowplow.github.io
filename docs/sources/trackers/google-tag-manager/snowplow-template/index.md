@@ -1,6 +1,6 @@
 ---
 title: Snowplow Template
-sidebar_position: 140 
+sidebar_position: 400
 ---
 
 This template implements the [Snowplow JavaScript tracker](/docs/sources/trackers/javascript-trackers/web-tracker/index.md) for Google Tag Manager.
