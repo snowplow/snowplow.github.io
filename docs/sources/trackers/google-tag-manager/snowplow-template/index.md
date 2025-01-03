@@ -16,7 +16,7 @@ To add a custom context entity:
 ```js
 function() {
     return [{
-        schema: 'iglu:com.snowplowanalytics.snowplow/web_page/jsonschema/1-0-0',
+        schema: 'iglu:com.example/web_page/jsonschema/1-0-0',
         data: {
             id: '12345',
             title: 'Snowplow Analytics',
