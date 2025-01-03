@@ -1,6 +1,6 @@
 ---
 title: Events
-sidebar_position: 300
+sidebar_position: 100
 ---
 
 

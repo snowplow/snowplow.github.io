@@ -1,6 +1,6 @@
 ---
 title: "Plugins"
-sidebar_position: 400
+sidebar_position: 200
 ---
 
 [Plugins](/docs/sources/trackers/google-tag-manager/plugins/index.md) provide an easy way to distribute custom behavior for the tracker.
