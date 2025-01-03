@@ -49,11 +49,6 @@ The Snowplow Settings Variable template is used to configure the Snowplow tracke
 
 5. Give your variable a name and click `Save`.
 
-:::info
-
-We reccomend [self-hosting](/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/hosting-the-javascript-tracker/index.md) the tracker for production environments.
-
-:::
 
 ## Creating a Snowplow Tag
 
