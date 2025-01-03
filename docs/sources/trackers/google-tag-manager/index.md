@@ -1,7 +1,7 @@
 ---
 title: "Google Tag Manager"
 date: "2020-08-10"
-sidebar_position: 3100
+sidebar_position: 140
 ---
 
 
