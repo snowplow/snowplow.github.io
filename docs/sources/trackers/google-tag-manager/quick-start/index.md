@@ -30,6 +30,8 @@ To get started with Snowplow in Google Tag Manager, you will need to add the Sno
 
 ### Snowplow Settings Variable Template
 
+The Snowplow Settings Variable template is used to configure the Snowplow tracker, such as the collector endpoint, privacy options, and tracker version. Although possible to use the Snowplow tag without the settings variable, it's highly recommended to use it for ease of configuration, along with keeping the tracker configuration separate from the tag.
+
 1. Again in the `Templates` tab in your GTM workspace, click the `Search Gallery` button in the `Variable Templates` section.
 
 ![](images/variable-template-search.png)
