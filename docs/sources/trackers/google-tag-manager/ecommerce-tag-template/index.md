@@ -7,7 +7,11 @@ This template implements the [Snowplow Ecommerce plugin](/docs/sources/trackers/
 
 ## Template Installation
 
-To manually install the tag template:
+### Tag Manager Template Gallery
+
+Search for "Snowplow Ecommerce v3" in the [Tag Manager Template Gallery](https://tagmanager.google.com/gallery/#/owners/snowplow/templates/snowplow-gtm-tag-template-ecommerce-v3) and click `Add to Workspace`.
+
+### Manual Installation
 
 1. Download [template.tpl](https://github.com/snowplow/snowplow-gtm-tag-template-ecommerce-v3)
 2. Create a new Tag template in the Templates section of your GTM container
