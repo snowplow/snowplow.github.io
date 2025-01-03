@@ -76,5 +76,3 @@ To test the tag, you can use the GTM preview mode. Click the `Preview` button in
 
 Ensure that you see the Page View event in your Snowplow pipeline. If you don't have a full pipeline set up yet and are hosting the sit locally, you can use [Snowplow Micro](/docs/data-product-studio/data-quality/snowplow-micro/what-is-micro/index.md), or [Snowplow Inspector](/docs/data-product-studio/data-quality/snowplow-inspector/overview/index.md) to check that the event is sent correctly.
 
-If your site is hosted, you can set up Micro to connect to a remote site by following the instructions [here](/docs/data-product-studio/data-quality/snowplow-micro/remote-usage/index.md).
-
