@@ -134,7 +134,7 @@ It is recommended to use the default `POST` method for sending events to the col
 
 #### Encode Into Base64
 
-This setting allows you to encode the payload into Base64 before sending it to the collector. This should almost always be enabled, as it reduces the size of the payload.
+This setting allows you to encode the payload into Base64 before sending it to the collector. If you are using the `GET` method for sending events to the collector, it is recommended to enable this setting, as it will help prevent issues with special characters in the payload. Otherwise, it is recommended to leave this setting disabled to reduce the payload size.
 
 #### Connection Timeout
 
