@@ -264,6 +264,24 @@ And then use this variable as your Command Argument:
 
 Using the Context Entities table allows you to attach [custom context entities](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#custom-context) to the Snowplow event. Each row should be set to a variable value that must be an array of custom context objects that will all be concatenated to add to the Event.
 
+For example to manually attach the web page context, create a custom JavaScript variable that returns an array with the custom context object:
+
+```js
+function() {
+    return [{
+        schema: 'iglu:com.example/web_page/jsonschema/1-0-0',
+        data: {
+            id: '12345',
+            title: 'Example Page',
+            url: 'https://example.com'
+        }
+    }];
+} 
+```
+
+Then set this variable as the value in the Context Entities table.
+
+
 #### Set Custom Timestamp
 
 You can also choose to [set the True Timestamp](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#setting-the-true-timestamp) with this field. The format must be UNIX time in milliseconds.
