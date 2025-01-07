@@ -214,14 +214,17 @@ The Callback Function is something you can set to a JavaScript function. If you 
 
 The Track Link Click event is similar to regular parameter-based events, as it lets you add parameters and track a link click as a manually encoded hit.
 
-The Enable Automatic Link Click Tracking adds listeners to the page, which will track clicks on links permitting they adhere to the blacklisted/whitelisted class names you can optionally provide.
+The Enable Automatic Link Click Tracking adds listeners to the page, which will track clicks on links permitting they adhere to the blacklisted/whitelisted class names you can optionally provide. It is intended to trigger [early on a page](https://support.google.com/tagmanager/answer/7679319) to begin listening for click events, _not_ to trigger on click events like [Click Triggers](https://support.google.com/tagmanager/answer/7679320).
 
 The Fix Middle-click Tracking adds a fix for some browsers where middle-clicks were not tracked properly.
 
 If you check Track HTML Content Of Clicked Link, then the full text content of the link element will be sent to Snowplow as well.
 
-Note that this tag enables the tracker's native [Link Click Tracking plugin](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/link-click/index.md), it does not directly fire an event.
-It is intended to trigger [early on a page](https://support.google.com/tagmanager/answer/7679319) to begin listening for click events, _not_ to trigger on click events like [Click Triggers](https://support.google.com/tagmanager/answer/7679320).
+:::note
+
+This setting enables the tracker's native [Link Click Tracking plugin](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/link-click/index.md), it does not directly fire an event.
+
+:::
 
 ### Form Tracking
 
