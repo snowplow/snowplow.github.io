@@ -29,6 +29,29 @@ This determines the source of the Snowplow JavaScript tracker library. You can c
 
 This field is required if you choose to load the Snowplow JavaScript tracker from your own server. Enter the URL of the tracker library here.
 
+:::warning
+
+The default Tag doesn't have the permission to inject scripts from a custom URL.
+
+You will need to update the `Injects Scripts` permission to reflect the new location, by editing the `Snowplow Analytics v3/v4 Tag` template. Delete the content of the `Allowed URL Match Patterns` field, and type the full URL to the library there. Again, it must match what you input into the tag itself when creating it.
+
+![modifying permissions](images/modifying_permissions.png)
+
+Modifying permissions **breaks the gallery link** and you will no longer be notified about updates to the template.
+
+![modifying permissions breaks gallery link](images/modifying_breaks_gallery_link.png)
+
+:::
+
+:::note
+
+Since v1.1.0, an alternative to prevent breaking the gallery update link is to use the `Do not load` option from the corresponding drop down menu:
+
+![library host drop down 'Do not load' option](images/host_drop_down_no_load.png)
+
+:::
+
+
 ### Library Version
 
 This field is required if you choose to load the Snowplow JavaScript tracker from a CDN. Enter the version of the tracker library you want to load here.
