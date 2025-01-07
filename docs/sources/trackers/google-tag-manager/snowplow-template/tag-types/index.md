@@ -203,7 +203,7 @@ The Errors tracker tag provides a way to manually track any errors that occur on
 
 ### Page View
 
-You can provide a Custom Page Title if you wish, and you can add a [custom context](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#custom-context) to the request, as also described [here](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/index.md#trackpageview).
+You can provide a Custom Page Title if you wish, and you can add a [custom context](/docs/sources/trackers/snowplow-tracker-protocol/custom-events/context-entities/index.md) to the request, as also described [here](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/page-views/index.md#tracking-a-page-view).
 
 If you enable Page Activity Tracking, page pings will be sent at intervals that you can specify.
 
