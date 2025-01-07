@@ -103,7 +103,7 @@ Add To Cart and Remove From Cart events take the following parameters:
 
 :::info
 
-We reccomend migrating to the [Snowplow Ecommerce Tag](/docs/sources/trackers/google-tag-manager/ecommerce-tag-template/index.md) template to take advantage of the latest ecommerce tracking features.
+We recommend migrating to the [Snowplow Ecommerce Tag](/docs/sources/trackers/google-tag-manager/ecommerce-tag-template/index.md) template to take advantage of the latest ecommerce tracking features.
 
 :::
 
