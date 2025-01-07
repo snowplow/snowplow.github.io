@@ -9,7 +9,7 @@ This template implements the [Snowplow Ecommerce plugin](/docs/sources/trackers/
 
 ### Tag Manager Gallery
 
-_Coming soon._
+https://tagmanager.google.com/gallery/#/owners/snowplow/templates/snowplow-gtm-tag-template-ecommerce-v3
 
 ### Manual Installation
 
