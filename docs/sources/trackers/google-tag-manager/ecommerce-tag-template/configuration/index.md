@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 ## Ecommerce API
 
-Use the native Snowplow Ecommerce API or [transitional GA4/UA ecommerce adapter APIs](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/ecommerce/index.md) for existing dataLayer implementations using those formats. To get full value from the [Snowplow Ecommerce plugin](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/ecommerce/index.md) we recommend using the native API when possible.
+Use the native Snowplow Ecommerce API or [transitional GA4/UA ecommerce adapter APIs](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/ecommerce/index.md#ga4ua-ecommerce-transitional-api) for existing dataLayer implementations using those formats. To get full value from the [Snowplow Ecommerce plugin](/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/ecommerce/index.md) we recommend using the native API when possible.
 
 ![](images/01_ecommerce_api.png)
 
