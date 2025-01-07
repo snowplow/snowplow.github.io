@@ -25,5 +25,5 @@ With the template installed, you can now add the Snowplow Ecommerce Tag to your 
 
 1. From the Tag tab, select `New`, then select the Snowplow Ecommerce Tag as your tag type
 2. Select your desired Trigger for the ecommerce events you want to track
-3. [Configure the Tag]
+3. [Configure the Tag](/docs/sources/trackers/google-tag-manager/ecommerce-tag-template/configuration/index.md)
 4. Click Save
