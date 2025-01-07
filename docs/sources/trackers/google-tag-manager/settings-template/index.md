@@ -103,6 +103,8 @@ This setting allows you to specify the domain for which the Snowplow tracker coo
 
 By default, `auto` will be used, which will set the domain to the root domain.
 
+See [here](/docs/sources/trackers/javascript-trackers/web-tracker/cookies-and-local-storage/configuring-cookies/index.md#cookie-domain) for more information.
+
 ### Cookie Lifetime
 
 This setting allows you to specify the lifetime of the Snowplow tracker cookies. By default, the cookies will be active for 2 years.
