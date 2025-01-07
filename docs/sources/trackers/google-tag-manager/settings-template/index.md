@@ -147,7 +147,7 @@ This setting allows you to specify the timeout for the connection to the Snowplo
 This setting allows you to specify the number of events to buffer
 before sending them to the collector. By default, the buffer size is set to 1.
 
-If you set the buffer size to a value greater than 1, the tracker will buffer events and send them in batches to the collector. This can help reduce the number of requests made to the collector, which can improve performance.
+If you set the buffer size to a value greater than 1, the tracker will buffer events and send them in batches to the collector. Although this can help reduce the number of requests made to the collector, it comes at the expense of potential data loss for non-returning visitors.
 
 #### POST Path
 
