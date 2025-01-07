@@ -45,6 +45,12 @@ The Snowplow Settings Variable template is used to configure the Snowplow tracke
 
 ![](images/variable.png)
 
+:::info
+
+You might consider using conditional variables to set the collector endpoint based on the environment, e.g. sending data to micro/mini collector during development.
+
+:::
+
 4. Under `JavaScript Tracker`, choose a hosting option. To get started quickly, select either `unpkg` or `jsDelivr` and enter a library version.
 
 5. Give your variable a name and click `Save`.
