@@ -251,7 +251,7 @@ For Google Analytics 4 compatible ecommerce tracking, see the dedicated [Snowplo
 
 ### Custom Commands
 
-For any other commands which are supported by the Snowplow JavaScript Tracker v3, you can select the [Custom Command] option. Once select, you can enter any function name and the associated parameter for that function. The parameter can either be a simple string, in examples such as `setUserId`:
+For any other commands which are supported by the Snowplow JavaScript Tracker v4, you can select the `[Custom Command]` option. Once selected, you can enter any function name and the associated parameter for that function. The parameter can either be a simple string, in examples such as `setUserId`:
 
 ![setUserId](images/setUserId.png)
 
