@@ -60,7 +60,13 @@ The ad tracking tag includes three event types, each with its own set of additio
 
 ### Button Click Tracking
 
-This tag enables the automatic tracking of clicks on buttons, covering both `<button>` and `<input type="button">` elements.
+This tag will enable the tracking of clicks on buttons, covering both `<button>` and `<input type="button">` elements.
+
+:::info
+
+This does not track track a button click event directly, but rather will enable listen for button clicks.
+
+:::
 
 #### Filter
 
