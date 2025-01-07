@@ -107,8 +107,6 @@ We recommend migrating to the [Snowplow Ecommerce Tag](/docs/sources/trackers/go
 
 :::
 
----
-
 ### Site Search
 
 The Site Search tag can be used to track searches on your website, using the [Site Search Schema](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/site_search/jsonschema/1-0-0)
