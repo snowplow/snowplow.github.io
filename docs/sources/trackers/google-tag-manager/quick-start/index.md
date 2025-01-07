@@ -50,9 +50,7 @@ The Snowplow Settings Variable template is used to configure the Snowplow tracke
 5. Give your variable a name and click `Save`.
 
 
-## Creating a Snowplow Tag
-
-Now we have the Snowplow Tag and Settings Variable templates added to our GTM workspace, we can start deploying the Snowplow JavaScript tracker on our website.
+## Implementing the Snowplow Tag
 
 In this section, we will create a simple tag to fire a page view event.
 
