@@ -29,7 +29,7 @@ import Link from '@docusaurus/Link';
     <td><code>skipSchemas</code></td>
     <td>
       Optional, e.g. <code>["iglu:com.example/skipped1/jsonschema/1-0-0"]</code> or with wildcards <code>["iglu:com.example/skipped2/jsonschema/1-*-*"]</code>.
-      A list of schemas that won't be loaded to BigQuery.
+      A list of schemas that won't be loaded to the lake.
       This feature could be helpful when recovering from edge-case schemas which for some reason cannot be loaded to the table.
     </td>
 </tr>
